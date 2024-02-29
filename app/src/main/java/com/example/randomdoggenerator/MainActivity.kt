@@ -51,8 +51,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun backgroundAnimation() {
-        val animatonDrawable: AnimationDrawable = binding.rlLayout.background as AnimationDrawable
-        animatonDrawable.apply {
+        val animationDrawable: AnimationDrawable = binding.rlLayout.background as AnimationDrawable
+        animationDrawable.apply {
             setEnterFadeDuration(1000)
             setExitFadeDuration(3000)
             start()
